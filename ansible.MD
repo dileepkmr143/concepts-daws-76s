@@ -1,8 +1,8 @@
 ### Ansible
 
 Ansible is an open-source automation tool used for
-* Configuration management
-* Application deployment
+* Configuration management      like windows configuration
+* Application deployment        installations
 * Cloud provisioning and orchestration(But not recommended)
 
 #### What is configuration?
@@ -40,7 +40,8 @@ Read the configuration --> it is easy to read the configuration of server throug
 * Readable and maintainable
 * Vault
 * Rich modules
-* Agent less
+* Agent less    for shell scripts some agent should be available to run its scripts but for ansible without agent it will run
+* Ansible uses push based mechanism
 
 ### Pull vs Push configuration
 
